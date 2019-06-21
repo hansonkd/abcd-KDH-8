@@ -1,0 +1,20 @@
+branch-defaults:
+  kh/initialwork:
+    environment: py-staging-docker
+environment-defaults:
+  py-staging-docker:
+    branch: null
+    repository: null
+global:
+  application_name: py-app-docker
+  default_ec2_keyname: aws-eb-kyle
+  default_platform: arn:aws:elasticbeanstalk:us-west-2::platform/Multi-container Docker
+    running on 64bit Amazon Linux/2.11.3
+  default_region: us-west-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  sc: git
+  workspace_type: Application
